@@ -38,11 +38,19 @@ ament_target_dependencies(color_names
 )
 ament_export_interfaces(export_color_names HAS_LIBRARY_TARGET)
 ament_export_libraries(color_names)
+
 install(TARGETS color_names
 EXPORT export_color_names
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION bin)
+
+# Install header files
+install(
+  DIRECTORY "include/"
+  DESTINATION include
+)
+
 ament_export_libraries(color_names)
 ament_export_include_directories(include)
 ament_package()
