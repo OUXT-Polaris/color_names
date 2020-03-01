@@ -11,7 +11,7 @@
 
 namespace color_names
 {
-inline std_msgs::msg::ColorRGBA makeColorMsg(std::string preset_name, double alpha=1.0);
+std_msgs::msg::ColorRGBA makeColorMsg(std::string preset_name, double alpha=1.0);
 
 ///@todo Read data from text data?
 const std::map<std::string, std::array<float, 3>> COLOR_NAME_DICT
@@ -159,8 +159,6 @@ const std::map<std::string, std::array<float, 3>> COLOR_NAME_DICT
   {"yellowgreen", {0.603922, 0.803922, 0.196078}},
   {"ERROR", {0, 0, 0}}
 };
-
-std_msgs::msg::ColorRGBA makeColorMsg(std::string preset_name, double alpha);
 
 } // namespace color_names
 

@@ -15,10 +15,11 @@
   <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
   <license>MIT</license>
 
-  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
-
+  <depend>visualization_msgs</depend>
+  <depend>rviz</depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
