@@ -8,10 +8,15 @@
 
 #include <std_msgs/msg/color_rgba.hpp>
 #include <map>
+#include <cassert>
 
 namespace color_names
 {
-std_msgs::msg::ColorRGBA makeColorMsg(std::string preset_name, double alpha=1.0);
+  std_msgs::msg::ColorRGBA makeColorMsg(std::string preset_name, double alpha=1.0);
+  /**
+   * @brief 0 <= h <= 1.0,0 <= s <= 1.0,0 <= v <= 1.0
+   */
+  std_msgs::msg::ColorRGBA fromHsv(double h,double s,double v, double alpha=1.0);
 
 ///@todo Read data from text data?
 const std::map<std::string, std::array<float, 3>> COLOR_NAME_DICT
