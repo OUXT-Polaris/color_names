@@ -19,7 +19,7 @@
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
   <depend>visualization_msgs</depend>
-  <depend>rviz</depend>
+  <depend>rviz2</depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
