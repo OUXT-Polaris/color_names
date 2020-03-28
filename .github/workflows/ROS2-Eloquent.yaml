@@ -22,8 +22,8 @@ jobs:
             - uses: actions/checkout@v2-beta
             - name: Copy repository
               run: |
-                  mkdir -p ~/ros2_ws/src/consai2r2
-                  cp -rf . ~/ros2_ws/src/consai2r2
+                  mkdir -p ~/ros2_ws/src/color_names
+                  cp -rf . ~/ros2_ws/src/color_names
             - name: Install dependencies
               run: |
                   source /opt/ros/eloquent/setup.bash
