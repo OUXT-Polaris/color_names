@@ -1,0 +1,5 @@
+repositories:
+  document_generator:
+    type: git
+    url: https://github.com/OUXT-Polaris/document_generator.git
+    version: master
