@@ -4,6 +4,14 @@
 
 namespace color_names
 {
+/**
+ * @brief generate std_msgs::msg::ColorRGBA message from hsv values
+ * @param h hue 
+ * @param s saturation 
+ * @param v value
+ * @param alpha alpha value of the color
+ * @return std_msgs::msg::ColorRGBA 
+ */
 std_msgs::msg::ColorRGBA fromHsv(double h, double s, double v, double alpha)
 {
   std_msgs::msg::ColorRGBA color;
@@ -49,6 +57,12 @@ std_msgs::msg::ColorRGBA fromHsv(double h, double s, double v, double alpha)
   return color;
 }
 
+/**
+ * @brief generate std_msgs::msg::ColorRGBA message from color name
+ * @param preset_name the name of the color
+ * @param alpha alpha value of the color
+ * @return std_msgs::msg::ColorRGBA 
+ */
 std_msgs::msg::ColorRGBA makeColorMsg(std::string preset_name, double alpha)
 {
   std_msgs::msg::ColorRGBA c_msg;

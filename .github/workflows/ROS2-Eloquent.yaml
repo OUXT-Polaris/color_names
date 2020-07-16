@@ -30,6 +30,8 @@ jobs:
                   sudo apt install -y python-rosdep
                   sudo rosdep init
                   rosdep update
+                  cd ~/ros2_ws
+                  vcs import src < src/color_names/dependency.repos
                   cd ~/ros2_ws/src
                   rosdep install -r -y --from-paths . --ignore-src
             - name: Build packages
