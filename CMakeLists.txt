@@ -23,7 +23,7 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(visualization_msgs REQUIRED)
 find_package(document_generator REQUIRED)
-include("${document_generator_DIR}/doxygen.cmake")
+include("${document_generator_DIR}/document_generator.cmake")
 
 include_directories(
   include
@@ -50,6 +50,8 @@ ament_target_dependencies(view_all
   visualization_msgs
 )
 add_document(view_all)
+
+add_package_document(shuhei)
 
 install(TARGETS
   view_all

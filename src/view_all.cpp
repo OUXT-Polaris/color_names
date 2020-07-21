@@ -2,6 +2,13 @@
  * @file color_names_node.cpp
  */
 
+/**
+ * @mainpage view_all node for color_names
+ * @image html images/color_names_sample.png
+ * @author Masaya Kataoka
+ * @date 2020-07-17
+ */
+
 #include <color_names/color_names.h>
 #include <chrono>
 #include <rclcpp/rclcpp.hpp>
