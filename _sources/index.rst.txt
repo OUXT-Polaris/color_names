@@ -1,0 +1,15 @@
+.. toctree::
+    :maxdepth: 2
+    :caption: Contents:
+
+color_names: documentation_color_names_
+
+.. _documentation_color_names: ../../color_names/color_names/html/index.html
+
+view_all: documentation_view_all_
+
+.. _documentation_view_all: ../../view_all/view_all/html/index.html
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
