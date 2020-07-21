@@ -51,4 +51,4 @@ jobs:
               uses: peaceiris/actions-gh-pages@v3
               with:
                 github_token: ${{ secrets.GITHUB_TOKEN }}
-                publish_dir: ~/ros2_ws/install/color_names/share/color_names/doc/sphinx/html
+                publish_dir: /home/runner/ros2_ws/install/color_names/share/color_names/doc/sphinx/html
