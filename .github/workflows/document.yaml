@@ -45,6 +45,8 @@ jobs:
                   cd ~/ros2_ws
                   colcon build
                   source ~/ros2_ws/install/setup.bash
+            - name: Setup tmate session
+              uses: mxschmitt/action-tmate@v1
             - name: Deploy Document
               uses: peaceiris/actions-gh-pages@v3
               with:
