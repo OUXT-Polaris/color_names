@@ -1,0 +1,2 @@
+/home/runner/ros2_ws/src/color_names/src/view_all.cpp:2: warning: the name `color_names_node.cpp' supplied as the second argument in the \file statement is not an input file
+/home/runner/ros2_ws/src/color_names/src/view_all.cpp:7: warning: image file images/color_names_sample.png is not found in IMAGE_PATH: assuming external image.
