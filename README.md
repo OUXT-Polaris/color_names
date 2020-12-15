@@ -1,4 +1,4 @@
-color_names ![ROS2-Eloquent](https://github.com/OUXT-Polaris/color_names/workflows/ROS2-Eloquent/badge.svg)
+color_names ![ROS2-Foxy](https://github.com/OUXT-Polaris/color_names/workflows/ROS2-Foxy/badge.svg)
 ====
 **ROS package**
 
