@@ -68,7 +68,8 @@ install(TARGETS color_names
 EXPORT export_color_names
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
-  RUNTIME DESTINATION bin)
+  RUNTIME DESTINATION bin
+  INCLUDES DESTINATION include)
 
 #############
 ## Install ##
