@@ -37,7 +37,7 @@ ament_target_dependencies(color_names
   std_msgs
 )
 add_document(color_names)
-ament_export_interfaces(export_color_names HAS_LIBRARY_TARGET)
+ament_export_targets(export_color_names HAS_LIBRARY_TARGET)
 ament_export_libraries(color_names)
 
 add_executable(view_all
@@ -68,7 +68,8 @@ install(TARGETS color_names
 EXPORT export_color_names
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
-  RUNTIME DESTINATION bin)
+  RUNTIME DESTINATION bin
+  INCLUDES DESTINATION include)
 
 #############
 ## Install ##
