@@ -22,8 +22,6 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(visualization_msgs REQUIRED)
-find_package(document_generator REQUIRED)
-include("${document_generator_DIR}/document_generator.cmake")
 
 include_directories(
   include
@@ -36,7 +34,6 @@ ament_target_dependencies(color_names
   rclcpp
   std_msgs
 )
-add_document(color_names)
 ament_export_targets(export_color_names HAS_LIBRARY_TARGET)
 ament_export_libraries(color_names)
 
@@ -49,9 +46,6 @@ ament_target_dependencies(view_all
   std_msgs
   visualization_msgs
 )
-add_document(view_all)
-
-add_package_document(shuhei)
 
 install(TARGETS
   view_all
