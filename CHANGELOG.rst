@@ -2,8 +2,8 @@
 Changelog for package color_names
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.1 (2021-01-10)
+------------------
 * Merge pull request `#6 <https://github.com/OUXT-Polaris/color_names/issues/6>`_ from OUXT-Polaris/feature/remove_document_generator
   Feature/remove document generator
 * remove cmake commands
