@@ -2,8 +2,8 @@
 Changelog for package color_names
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.2 (2021-07-10)
+------------------
 * Merge pull request `#12 <https://github.com/OUXT-Polaris/color_names/issues/12>`_ from OUXT-Polaris/workflow/galactic
   update CI workflow for galactic
 * update .github/workflows/ROS2-Galactic.yaml
