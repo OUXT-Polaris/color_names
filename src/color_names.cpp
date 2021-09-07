@@ -20,11 +20,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
 
-
 #include <color_names/color_names.hpp>
-#include <string>
-
 #include <iostream>
+#include <string>
 
 namespace color_names
 {
@@ -91,8 +89,12 @@ std_msgs::msg::ColorRGBA makeColorMsg(std::string preset_name, double alpha)
 {
   std_msgs::msg::ColorRGBA c_msg;
   c_msg.a = alpha;
-  if (c_msg.a < 0.) {c_msg.a = 0.;}
-  if (c_msg.a > 1.) {c_msg.a = 1.;}
+  if (c_msg.a < 0.) {
+    c_msg.a = 0.;
+  }
+  if (c_msg.a > 1.) {
+    c_msg.a = 1.;
+  }
 
   auto found_itr = COLOR_NAME_DICT.find(preset_name);
   if (found_itr != COLOR_NAME_DICT.end()) {

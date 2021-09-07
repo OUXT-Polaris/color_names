@@ -20,7 +20,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
 
-
 /**
  * @file color_names_node.cpp
  */
@@ -32,11 +31,10 @@ THE SOFTWARE.
  * @date 2020-07-17
  */
 
+#include <chrono>
 #include <color_names/color_names.hpp>
 #include <rclcpp/rclcpp.hpp>
 #include <visualization_msgs/msg/marker_array.hpp>
-
-#include <chrono>
 
 int main(int argc, char ** argv)
 {

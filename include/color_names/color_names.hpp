@@ -28,11 +28,10 @@ THE SOFTWARE.
 #ifndef COLOR_NAMES__COLOR_NAMES_HPP_
 #define COLOR_NAMES__COLOR_NAMES_HPP_
 
-#include <std_msgs/msg/color_rgba.hpp>
-
 #include <cassert>
-#include <string>
 #include <map>
+#include <std_msgs/msg/color_rgba.hpp>
+#include <string>
 
 namespace color_names
 {
@@ -42,7 +41,7 @@ std_msgs::msg::ColorRGBA makeColorMsg(std::string preset_name, double alpha = 1.
    */
 std_msgs::msg::ColorRGBA fromHsv(double h, double s, double v, double alpha = 1.0);
 
-const std::map<std::string, std::array<float, 3>> COLOR_NAME_DICT {
+const std::map<std::string, std::array<float, 3>> COLOR_NAME_DICT{
   //  {"COLOR_NAME", {R, G, B}} //template
   {"aliceblue", {0.941176, 0.972549, 1}},
   {"antiquewhite", {0.980392, 0.921569, 0.843137}},
@@ -184,8 +183,7 @@ const std::map<std::string, std::array<float, 3>> COLOR_NAME_DICT {
   {"whitesmoke", {0.960784, 0.960784, 0.960784}},
   {"yellow", {1, 1, 0}},
   {"yellowgreen", {0.603922, 0.803922, 0.196078}},
-  {"ERROR", {0, 0, 0}}
-};
+  {"ERROR", {0, 0, 0}}};
 
 }  // namespace color_names
 
