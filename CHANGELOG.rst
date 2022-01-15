@@ -2,8 +2,8 @@
 Changelog for package color_names
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.3 (2022-01-15)
+------------------
 * Setup workflow (`#32 <https://github.com/OUXT-Polaris/color_names/issues/32>`_)
 * Setup workflow (`#31 <https://github.com/OUXT-Polaris/color_names/issues/31>`_)
 * Setup workflow (`#30 <https://github.com/OUXT-Polaris/color_names/issues/30>`_)
